@@ -1,0 +1,44 @@
+---
+id: publish-rule-md
+title: publish-rule.md
+description: ''
+version: 1.0.0
+category: core
+platforms:
+  generic:
+    compatible: true
+  claude-code:
+    compatible: true
+  cursor:
+    compatible: true
+  windsurf:
+    compatible: true
+  github-copilot:
+    compatible: true
+  gemini-cli:
+    compatible: true
+  tabnine:
+    compatible: true
+contributedBy: VDK CLI Community
+contributedAt: '2026-03-04T17:16:24.973Z'
+originalFile: publish-rule.md
+projectContext:
+  name: VDK-Ecosystem
+  framework: generic
+  language: typescript
+  technologies:
+    - react
+    - vue
+    - nodejs
+    - python
+    - docker
+---
+# Team Coding Rule
+
+Use strict typing, add meaningful tests, document public APIs, and avoid silent failures. Include migration notes for schema-affecting changes and validate lint/test before merge.
+
+## Checklist
+
+- Add tests
+- Update docs
+- Validate build
